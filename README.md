@@ -12,3 +12,11 @@ After obtaining all relevanat infomration of artists from the site, we can save 
 
 ![image](https://user-images.githubusercontent.com/53164959/83850098-5cd3ed80-a74b-11ea-821a-e712eed20ee0.png)
 
+
+## 3) Brief Explnation For Codes
+
+>- Individual Search : Get Spotify Catalog information about albums, artists, playlists, tracks, shows or episodes that match a keyword
+>                      string
+>- Batch Search :  Get Spotify catalog information for several artists based on their Spotify IDs
+                  (Be aware that the manimum number for each run is 50 IDs)
+
