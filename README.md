@@ -25,9 +25,12 @@ After obtaining all relevanat infomration of artists from the site, we can save 
 
 ```linux
 mysql -h <endpoint> -p <port_number> -u <master_name> -p 
-
-#create a database called production
- create database production
-
 ```
+
+```mysql
+#CREATE TABLES 
+USE PRODUCTION
+CREATE TABLE artists (id VARCHAR(255),name VARCHAR(255),followers INTEGER,popularity INTEGER);
+CREATE TABLE 
+
 
