@@ -20,3 +20,10 @@ After obtaining all relevanat infomration of artists from the site, we can save 
 >- Batch Search :  Get Spotify catalog information for several artists based on their Spotify IDs
                   (Be aware that the manimum number for each run is 50 IDs)
 
+
+### 4) mysql aws
+
+```linux
+mysql -h <endpoint> -p <port_number> -u <master_name> -p 
+  
+```
