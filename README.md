@@ -27,7 +27,7 @@ After obtaining all relevanat infomration of artists from the site, we can save 
 mysql -h <endpoint> -p <port_number> -u <master_name> -p 
 
 #create a database called production
-mysql> create database production
+ create database production
 
 ```
 
