@@ -33,6 +33,8 @@ USE PRODUCTION
 CREATE TABLE artists (artist_id VARCHAR(255),name VARCHAR(255),followers INTEGER,popularity INTEGER,PRIMARY KEY(id)) ENGINE=InnoDB DEFAULT CHARSET='utf8';
 CREATE TABLE top_trakcs (artist_id VARCHAR(255),track_id VARCHAR(255),track_name VARCHAR(255),track_popularity INTEGER,PRIMARY KEY(track_id)) ENGINE=InnoDB DEFAULT CHARSET='utf8';
 
+CREATE TABLE audio_features (danceability FLOAT,energy FLOAT,key INTEGER,loundness FLOAT,mode INTEGER,speechiness FLOAT,acousticness FLOAT,instrumentalness FLOAT,valence FLOAT,tempo FLOAT,id VARCHAR(255) 
 
 
+```
 
