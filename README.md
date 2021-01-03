@@ -4,7 +4,7 @@ Spotify Web scraper crawls throuhg the Spotify web interface and extracts a vari
 ## 1) System Environments
 
 - python 3.8
-- mysql 5.7
+- mysql 8.0
 
 After obtaining all relevanat infomration of artists from the site, we can save it to the seleceted table in database.
 
