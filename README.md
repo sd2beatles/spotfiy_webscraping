@@ -31,7 +31,8 @@ mysql -h <endpoint> -p <port_number> -u <master_name> -p
 #CREATE TABLES 
 USE PRODUCTION
 CREATE TABLE artists (artist_id VARCHAR(255),name VARCHAR(255),followers INTEGER,popularity INTEGER,PRIMARY KEY(id)) ENGINE=InnoDB DEFAULT CHARSET='utf8';
-CREATE TABLE top_trakcs (artist_id VARCHAR(255),track_id VARCHAR(255),track_name VARCHAR(255),track_popularity INTEGER,PRIMARY KEY(track_id)) ENGINE=InnoDB DEFAULT CHARSET='utf8';
+CREATE TABLE top_tracks (artist_id VARCHAR(255),track_id VARCHAR(255),track_name VARCHAR(266),track_popularity VARCHAR(255),PRIMARY KEY(track_id),FOREIGN KEY (artist_id) REFERENCES artists(artist_id)) ENGINE=InnoDB CHARSET='utf8';
+
 
 CREATE TABLE audio_features (danceability FLOAT,energy FLOAT,key INTEGER,loundness FLOAT,mode INTEGER,speechiness FLOAT,acousticness FLOAT,instrumentalness FLOAT,valence FLOAT,tempo FLOAT,id VARCHAR(255) 
 
