@@ -4,7 +4,7 @@
 
 <center><img src="https://user-images.githubusercontent.com/53164959/103773047-d0393700-506d-11eb-8b74-e1e158c55def.png" width="500" height="300"></center>
 
-## :globe_with_meridians:: Introduction 
+## :globe_with_meridians: Introduction 
 
 The main motivation of this project is to experience a full cycle of so-called 'big data' environment. The biggest challenge for those with a strong background in Statistics and Math is to perform data analysis without any resort to data uploaded at Kaggle. In this project, we will go through a whole process of data training from scratch. 
 
