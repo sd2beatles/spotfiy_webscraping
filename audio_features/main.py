@@ -11,6 +11,8 @@ def saveFile(records,mode):
         tracks.to_parquet('audio_features.parquet',engine='pyarrow',compression='snappy')
 
 def main():
+    client_id="_replace_me_"
+    client_secret="_replace_me_"
     token=getToken(client_id,client_secret)
     artists=["BTS","Taylor Swift"]
     records=[]
