@@ -1,5 +1,17 @@
 
 
+
+
+def saveFile(records,mode):
+    assert mode in ['json','parqeut']
+    if mode=="json": 
+        with open('audio_features.json','w') as f:
+            json.dump(records,f)
+        
+    elif mode=="parquet":
+        tracks=pd.DataFrame(records)
+        tracks.to_parquet('audio_features.parquet',engine='pyarrow',compression='snappy')
+
 def main():
     token=getToken(client_id,client_secret)
     artists=["BTS","Taylor Swift"]
